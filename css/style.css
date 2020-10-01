@@ -1,11 +1,12 @@
 body,html
 {
+    word-wrap:normal;
     margin: 0;
     padding: 0;
     height: 100%;
 }
 header {
-    padding-top:60px;
+    padding-top:82px;
 }
 nav
 {
@@ -17,37 +18,39 @@ nav
 }
 nav li
 {
-    font-size:18px;
+    font-size:20px;
 }
-ul
+nav ul
 {
     margin-top:0;
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
 }
-li
+nav li
 {
     font-family: 'Arimo', sans-serif;
     float: right;
 }
-li a
+nav li a
 {
+    margin:0;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px;
     text-decoration: none;
 }
-li a:hover
+nav li a:hover
 {
-    background-color: #006400;
+
+    background-color:#ff4500;
     color:white;
 }
 .hero-image
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Website/images/background.jpg);
-    height: 60%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Website/images/background.png);
+    height: 82%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,24 +65,43 @@ li a:hover
     transform: translate(-50%, -50%);
     color: white;
 }
-h1 
-{ 
-    font-size: 18px;
+#bio,#work
+{
+    padding:80px;
+    text-align:right;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(200,198,198,1) 100%); 
 }
-a {
-    color: #000000;
-    text-decoration: underline;
+#exp ,#contact
+{
+    padding:80px;
+    background: linear-gradient(90deg, rgba(200,198,198,1) 0%, rgba(255,255,255,1) 100%); 
 }
-a:hover {
-    color: #001111;
-    text-decoration: none;
+h2
+{
+    color: #006400
 }
-h2 {
-    font-size: 16px;
+section
+{
+    display:block;
+    font-size:1.4em;
 }
-p {
-    font-size: 14px;
+section p
+{
+    font-family: 'Abel', sans-serif;
 }
-nav h1 {
-    float: left;
+section h2
+{
+    font-family: lobster;
+}
+
+body
+{
+    position: absolute;
+}
+footer
+{
+    padding:10px 0px;
+    width:100%;
+    background-color: #000000;
+    color:#ffffff;
 }
