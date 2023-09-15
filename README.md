@@ -1,2 +1,2 @@
 # Mogau Makgato's portfolio
-This website showcases my profile
+Forked and made Mogau Makgato's portfolio website better
